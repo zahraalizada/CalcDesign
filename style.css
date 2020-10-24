@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 65vh;
+    margin: 130px auto;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cal {
+    width: 32.99888%;
+    height: 90%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#display {
+    width: 90%;
+    height: 50%;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#display::placeholder {
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.btn {
+    width: 90%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 21px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 47, 47);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5), -1px -1px 4px rgba(255, 255, 255, 0.5);
+}
+
+button:active {
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), -1px -1px 3px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.bg-dark-grey {
+    background-color: rgb(49, 47, 47);
+    color: rgb(194, 186, 186);
+}
+
+.bg-light-grey {
+    background-color: rgb(194, 186, 186);
+    color: #000000;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9), -1px -1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.bg-orange {
+    background-color: rgb(226, 150, 8);
+    color: #f5f5f5;
+    box-shadow: 1px 1px 3px rgba(226, 150, 8, 1), -1px -1px 3px rgba(226, 150, 8, 0.8);
+}
